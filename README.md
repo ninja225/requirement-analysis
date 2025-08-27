@@ -64,3 +64,23 @@ Requirement Analysis involves a series of structured activities to ensure that t
 
 - **Requirement Validation**  
   Ensuring that the documented requirements accurately reflect stakeholder needs. This may involve reviews, walkthroughs, or prototyping to confirm correctness and completeness.
+
+
+
+  ## Types of Requirements
+
+### Functional Requirements
+These specify **what the system should do**—the actions and capabilities required to fulfill user and business needs. For a booking management system, they might include:
+
+- **Hotel management by owners**: Ability for hotel managers or owners to register their hotel, add/update/delete room types and individual rooms, and define pricing and availability dynamically. :contentReference[oaicite:1]{index=1}  
+- **Search and booking by customers**: Ability for users to search for hotels (by city, check-in/check-out dates), view available room types and prices, and make a booking. :contentReference[oaicite:2]{index=2}  
+- **Booking notifications**: System automatically sends booking confirmation notifications to customers once their reservation is completed. :contentReference[oaicite:3]{index=3}  
+
+### Non-functional Requirements
+These specify **how the system performs the functions**—covering quality attributes like reliability, performance, and scalability. For the same booking system, examples include:
+
+- **High availability and low latency**: The discovery/search platform should be highly available with fast response times, ensuring users can browse and book without delays. :contentReference[oaicite:4]{index=4}  
+- **Strong consistency**: Especially critical in booking flows to prevent scenarios like double-booking of the same room. :contentReference[oaicite:5]{index=5}  
+- **Scalability**: The system must scale effectively to handle increased traffic—from more users or hotel listings—without degradation of performance. :contentReference[oaicite:6]{index=6}  
+- **Concurrency handling**: Ensure that multiple booking requests are processed correctly so that no two customers can book the same room for overlapping dates. :contentReference[oaicite:7]{index=7}  
+
