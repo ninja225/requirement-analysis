@@ -84,3 +84,16 @@ These specify **how the system performs the functions**—covering quality attri
 - **Scalability**: The system must scale effectively to handle increased traffic—from more users or hotel listings—without degradation of performance. :contentReference[oaicite:6]{index=6}  
 - **Concurrency handling**: Ensure that multiple booking requests are processed correctly so that no two customers can book the same room for overlapping dates. :contentReference[oaicite:7]{index=7}  
 
+## Use Case Diagrams
+
+A **Use Case Diagram** is a visual representation of the interactions between **actors** (users or external systems) and the system itself. It helps in understanding the functional requirements, capturing user interactions, and defining the scope of the system.
+
+**Benefits of Use Case Diagrams:**
+- Provides a clear visualization of system functionality.
+- Identifies actors and their interactions with the system.
+- Helps in requirement validation and communication among stakeholders.
+
+Below is the use case diagram for the booking management system:
+
+![Booking System Use Case Diagram](alx-booking-uc.png)
+
