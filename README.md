@@ -97,3 +97,21 @@ Below is the use case diagram for the booking management system:
 
 ![Booking System Use Case Diagram](alx-booking-uc.png)
 
+
+## Acceptance Criteria
+
+### Importance in Requirement Analysis
+Acceptance Criteria define the conditions a feature must meet to be accepted by stakeholders. They ensure clarity, prevent scope creep, guide testing, and align development with business needs.
+
+### Example: Checkout Feature in Booking System
+
+**User Story**:  
+As a customer, I want to complete my booking by checking out securely so I can confirm and pay for my reservation.
+
+**Acceptance Criteria**:
+- [ ] Display a summary of selected services, dates, and total cost before payment.
+- [ ] Allow entry and real-time validation of payment details (card number, expiry, CVV).
+- [ ] Process payment securely via a PCI-compliant gateway.
+- [ ] On success, generate a booking ID, send a confirmation email, and show a success page.
+- [ ] On failure, display a clear error and allow retry.
+- [ ] Hold the reservation for 15 minutes during checkout to prevent double-booking.
